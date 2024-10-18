@@ -99,11 +99,7 @@ function getMax(numbers) {
  */
 function getRange(numbers) {
   // TODO
-  let range = numbers[0];
-  for (let i = 0; i < numbers.length; i++) {
-    range = numbers;
-  }
-  return range;
+  return getMax(numbers) - getMin(numbers);
 }
 
 /**
